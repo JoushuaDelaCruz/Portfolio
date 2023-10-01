@@ -105,7 +105,7 @@ const SocialLinks = () => {
     <div className='hidden lg:flex top-[10%] right-1 fixed h-full'>
         <ul className='lg:flex flex-col justify-around items-center'>
             {navigation.map(({id, child, link}) => {
-                return <Link to={link} smooth duration={500}> <li id={id} className="flex justify-around flex-col items-center w-40 h-14 px-4 mr-[-30px] hover:mr-[-15px] hover:rounded-md duration-300 text-white"> 
+                return <Link to={link} smooth duration={500}> <li id={id} className="flex cursor-pointer justify-around flex-col items-center w-40 h-14 px-4 mr-[-30px] hover:mr-[-15px] hover:rounded-md duration-300 text-white"> 
                      {child}
                     <p className='capitalize'> {link} </p>
                     </li> 
