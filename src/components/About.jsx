@@ -17,7 +17,7 @@ const About = () => {
             innovation.
             </p>
             <br />
-            <p className='text-xl text-start'> Furthermore, Joshua is actively 
+            <p className='text-xl text-start'> Furthermore, Joushua is actively 
             expanding his tech horizons by delving into cutting-edge areas like Robotic Process 
             Automation (RPA). This multidimensional approach to technology reflects his commitment 
             to continuous learning and his dedication to staying at the forefront of technological 

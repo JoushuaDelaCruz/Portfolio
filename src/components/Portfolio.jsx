@@ -45,7 +45,7 @@ const Portfolio = () => {
         <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8 max-w-screen text-center'>
                 <h1 className='text-4xl font-bold inline border-b-4 border-gray-50'>Portfolio</h1>
-                <p className='py-6'>Check out some of my work</p>
+                <p className='py-6'>Check out some of his work</p>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {portfolios.map(({id, title, description, link}) => {
